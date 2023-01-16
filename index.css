@@ -62,11 +62,18 @@ body {
   }
 }
 
+.gmail-part {
+  display: flex;
+  flex-direction: row;
+}
+
 .gmail {
   width: 320px;
   padding: 10px;
   border-radius: 8px;
   font-size: 16px;
+  display: block;
+  margin-left: auto;
   color: #333333;
   outline: none !important;
   border: 2px solid red !important;
@@ -81,4 +88,9 @@ body {
 
 .gmail:focus {
   border: 2px solid green !important;
+}
+
+.join {
+  display: block;
+  margin-right: auto;
 }
