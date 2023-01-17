@@ -822,4 +822,10 @@ img {
   .price-text {
     width: 100%;
   }
+
+  .tryFree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
