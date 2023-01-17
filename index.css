@@ -246,7 +246,6 @@ img {
   margin-bottom: 0px;
   color: #1f173a;
   font-size: 48px;
-  line-height: 64px;
   font-weight: 600;
   margin-top: 100px;
 }
@@ -310,6 +309,11 @@ img {
 @media only screen and (max-width: 992px) {
   .Features {
     font-size: 32px;
+    text-align: center;
+  }
+
+  .features-text {
+    text-align: center;
   }
   .cardWrapper {
     margin-top: 0px;
@@ -738,7 +742,7 @@ img {
   flex: 1;
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
   .faq {
     flex-direction: column;
   }
@@ -746,6 +750,9 @@ img {
   .accordion-item {
     width: 100%;
     margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -810,5 +817,9 @@ img {
   .started {
     width: 100%;
     padding: 12px 20px;
+  }
+
+  .price-text {
+    width: 100%;
   }
 }
