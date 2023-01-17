@@ -8,6 +8,17 @@ body {
   overflow-x: hidden;
 }
 
+.container-meduim {
+  max-width: 900px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
