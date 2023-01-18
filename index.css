@@ -429,6 +429,17 @@ img {
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .shape-1 {
+    top: 54%;
+    right: 72%;
+  }
+
+  .shape-3 {
+    top: 617px;
+  }
+}
+
 .per {
   text-align: center;
   color: #6b46c1;
@@ -792,6 +803,11 @@ img {
   .buss-heading {
     font-size: 32px;
   }
+  .freeTry {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (max-width: 767px) {
   .business {
@@ -817,12 +833,6 @@ img {
 
   .price-text {
     width: 100%;
-  }
-
-  .tryFree {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
