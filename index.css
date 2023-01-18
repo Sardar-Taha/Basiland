@@ -335,6 +335,9 @@ img {
   .cardWrapper {
     flex-direction: column;
   }
+  .card-1 {
+    text-align: center;
+  }
 }
 
 .col-6.margin {
@@ -940,5 +943,26 @@ img {
 
   .proud {
     margin-top: 30px !important;
+  }
+
+  .price-heading {
+    margin-top: 30px;
+  }
+  .savings {
+    margin-top: 30px;
+  }
+  .business {
+    margin-top: 50px;
+  }
+  .footer {
+    margin-top: 35px;
+  }
+
+  .paid-card {
+    margin-top: 25px;
+  }
+
+  .image {
+    margin-top: 30px;
   }
 }
