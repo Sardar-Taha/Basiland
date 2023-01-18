@@ -30,6 +30,17 @@ body {
   max-width: 50%;
 }
 
+.shape-2 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: -1;
+  width: 100%;
+  max-width: 50%;
+}
+
 .shape-3 {
   position: absolute;
   left: auto;
@@ -655,6 +666,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .getStart:hover {
@@ -919,5 +931,14 @@ img {
 @media only screen and (max-width: 419px) {
   .faq-heading {
     font-size: 32px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .edit-card {
+    margin-top: 50px;
+  }
+
+  .proud {
+    margin-top: 30px !important;
   }
 }
